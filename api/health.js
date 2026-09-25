@@ -1,0 +1,1 @@
+import {json,envReady} from './_lib.js';export default function handler(req,res){return json(res,200,{ok:true,configured:envReady(),storage_bucket:process.env.SUPABASE_MEDIA_BUCKET||'site-media'})}

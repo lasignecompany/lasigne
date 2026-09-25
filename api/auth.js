@@ -1,0 +1,1 @@
+import {validSession,json} from './_lib.js';export default function handler(req,res){return validSession(req)?json(res,200,{ok:true}):json(res,401,{ok:false})}

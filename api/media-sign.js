@@ -1,0 +1,6 @@
+import {validSession,json,envReady} from './_lib.js';
+function cleanName(s){return String(s||'file').normalize('NFKD').replace(/[^a-zA-Z0-9._-]+/g,'-').replace(/-+/g,'-').replace(/^-|-$/g,'').slice(-100)||'file'}
+export default async function handler(req,res){
+ if(req.method!=='POST')return json(res,405,{error:'method'});if(!validSession(req))return json(res,401,{error:'unauthorized'});if(!envReady())return json(res,503,{error:'not_configured'});
+ try{let b=req.body||{};if(typeof b==='string')b=JSON.parse(b);const bucket=process.env.SUPABASE_MEDIA_BUCKET||'site-media';const name=cleanName(b.name);const path=`lasigne/${Date.now()}-${name}`;const base=process.env.SUPABASE_URL.replace(/\/$/,'');const key=process.env.SUPABASE_SECRET_KEY;const r=await fetch(`${base}/storage/v1/object/upload/sign/${bucket}/${path}`,{method:'POST',headers:{apikey:key,Authorization:`Bearer ${key}`,'Content-Type':'application/json','x-upsert':'true'},body:'{}'});const d=await r.json();if(!r.ok)throw new Error(JSON.stringify(d));const signedUrl=/^https?:/i.test(d.url)?d.url:`${base}/storage/v1${d.url}`;const publicUrl=`${base}/storage/v1/object/public/${bucket}/${path}`;return json(res,200,{signedUrl,publicUrl,path});}catch(e){return json(res,500,{error:'storage',detail:e.message})}
+}
