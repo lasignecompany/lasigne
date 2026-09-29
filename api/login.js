@@ -1,1 +1,10 @@
-import {makeSession,json,COOKIE} from './_lib.js';export default async function handler(req,res){if(req.method!=='POST')return json(res,405,{error:'method'});let body=req.body||{};if(typeof body==='string')try{body=JSON.parse(body)}catch{};if(!process.env.ADMIN_PASSWORD||body.password!==process.env.ADMIN_PASSWORD)return json(res,401,{error:'unauthorized'});const secure=process.env.NODE_ENV==='production'?'; Secure':'';res.setHeader('Set-Cookie',`${COOKIE}=${encodeURIComponent(makeSession())}; Path=/; HttpOnly; SameSite=Strict; Max-Age=43200${secure}`);return json(res,200,{ok:true})}
+import { createToken, sessionCookie, passwordOK } from './_lib/auth.js';
+export default async function handler(req,res){
+  res.setHeader('Cache-Control','no-store');
+  if(req.method!=='POST') return res.status(405).json({error:'Método não permitido.'});
+  if(!process.env.ADMIN_PASSWORD||!process.env.SESSION_SECRET) return res.status(503).json({error:'ADMIN_PASSWORD e SESSION_SECRET ainda não foram configurados na Vercel.'});
+  const body=typeof req.body==='string'?JSON.parse(req.body||'{}'):(req.body||{});
+  if(!passwordOK(body.password)) return res.status(401).json({error:'Senha incorreta.'});
+  res.setHeader('Set-Cookie',sessionCookie(createToken()));
+  return res.status(200).json({ok:true});
+}
