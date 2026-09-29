@@ -493,15 +493,7 @@
     "group": "Método",
     "type": "text",
     "maxLength": 160,
-    "default": "atrair as pessoas"
-  },
-  {
-    "key": "method.titleNormal1",
-    "label": "Título — continuação normal",
-    "group": "Método",
-    "type": "text",
-    "maxLength": 80,
-    "default": "certas"
+    "default": "atrair as pessoas certas"
   },
   {
     "key": "method.titleMiddle",

@@ -61,7 +61,6 @@ export const ALLOWED_KEYS = {
   "method.kicker": 100,
   "method.titleStart": 60,
   "method.titleStrong1": 160,
-  "method.titleNormal1": 80,
   "method.titleMiddle": 80,
   "method.titleStrong2": 180,
   "method.titleStrong": 160,

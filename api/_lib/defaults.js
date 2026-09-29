@@ -104,10 +104,9 @@ export const DEFAULT_CONTENT = {
     "titleStrong": "estratégia e execução",
     "titleItalic": "precisam trabalhar juntas.",
     "titleStart": "Para",
-    "titleStrong1": "atrair as pessoas",
+    "titleStrong1": "atrair as pessoas certas",
     "titleMiddle": "e transformar",
-    "titleStrong2": "oportunidades em vendas,",
-    "titleNormal1": "certas"
+    "titleStrong2": "oportunidades em vendas,"
   },
   "offers": {
     "eyebrow": "Como trabalhar com a La Signé",
