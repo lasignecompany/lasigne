@@ -1,0 +1,1130 @@
+[
+  {
+    "key": "nav.scenario",
+    "label": "Menu: Seu cenário",
+    "group": "Navegação",
+    "type": "text",
+    "maxLength": 90,
+    "default": "Seu cenário"
+  },
+  {
+    "key": "nav.method",
+    "label": "Menu: Como trabalhamos",
+    "group": "Navegação",
+    "type": "text",
+    "maxLength": 90,
+    "default": "Como trabalhamos"
+  },
+  {
+    "key": "nav.solutions",
+    "label": "Menu: Soluções",
+    "group": "Navegação",
+    "type": "text",
+    "maxLength": 90,
+    "default": "Soluções"
+  },
+  {
+    "key": "nav.about",
+    "label": "Menu: La Signé",
+    "group": "Navegação",
+    "type": "text",
+    "maxLength": 90,
+    "default": "La Signé"
+  },
+  {
+    "key": "nav.cta",
+    "label": "Menu: CTA",
+    "group": "Navegação",
+    "type": "text",
+    "maxLength": 90,
+    "default": "Quero atrair clientes"
+  },
+  {
+    "key": "hero.eyebrow",
+    "label": "Pré-headline",
+    "group": "Hero",
+    "type": "text",
+    "maxLength": 120,
+    "default": "estratégia para ótimos profissionais e empresas"
+  },
+  {
+    "key": "hero.headlineLead",
+    "label": "Headline — início",
+    "group": "Hero",
+    "type": "text",
+    "maxLength": 120,
+    "default": "Se ninguém indicar você este mês,"
+  },
+  {
+    "key": "hero.headlineAccentStrong",
+    "label": "Headline — destaque em negrito",
+    "group": "Hero",
+    "type": "text",
+    "maxLength": 100,
+    "default": "de onde vêm"
+  },
+  {
+    "key": "hero.headlineAccentItalic",
+    "label": "Headline — continuação em itálico",
+    "group": "Hero",
+    "type": "text",
+    "maxLength": 140,
+    "default": "os próximos clientes?"
+  },
+  {
+    "key": "hero.subheadlineStart",
+    "label": "Subheadline — início",
+    "group": "Hero",
+    "type": "textarea",
+    "maxLength": 180,
+    "default": "A qualidade do que você entrega é alta. Mas"
+  },
+  {
+    "key": "hero.subheadlineStrong",
+    "label": "Subheadline — negrito",
+    "group": "Hero",
+    "type": "text",
+    "maxLength": 100,
+    "default": "depender de indicação"
+  },
+  {
+    "key": "hero.subheadlineMiddle",
+    "label": "Subheadline — continuação",
+    "group": "Hero",
+    "type": "text",
+    "maxLength": 80,
+    "default": "todo mês"
+  },
+  {
+    "key": "hero.subheadlineAccent",
+    "label": "Subheadline — destaque dourado",
+    "group": "Hero",
+    "type": "text",
+    "maxLength": 80,
+    "default": "custa caro demais."
+  },
+  {
+    "key": "hero.primaryCta",
+    "label": "Botão principal",
+    "group": "Hero",
+    "type": "text",
+    "maxLength": 80,
+    "default": "Quero atrair clientes todos os meses"
+  },
+  {
+    "key": "hero.secondaryCta",
+    "label": "Botão secundário",
+    "group": "Hero",
+    "type": "text",
+    "maxLength": 80,
+    "default": "Ver como a La Signé trabalha"
+  },
+  {
+    "key": "signals.intro",
+    "label": "Título dos resultados rápidos",
+    "group": "Resultados rápidos",
+    "type": "textarea",
+    "maxLength": 180,
+    "default": "O que muda quando você para de depender de indicação:"
+  },
+  {
+    "key": "signals.item1",
+    "label": "Card 1",
+    "group": "Resultados rápidos",
+    "type": "textarea",
+    "maxLength": 170,
+    "default": "Mais pessoas com perfil e orçamento entram em contato."
+  },
+  {
+    "key": "signals.item2",
+    "label": "Card 2",
+    "group": "Resultados rápidos",
+    "type": "textarea",
+    "maxLength": 170,
+    "default": "Agendamentos de reuniões com quem pode contratar."
+  },
+  {
+    "key": "signals.item3",
+    "label": "Card 3",
+    "group": "Resultados rápidos",
+    "type": "textarea",
+    "maxLength": 170,
+    "default": "Fluxo maior de propostas em negociação e contratos fechados."
+  },
+  {
+    "key": "signals.item4",
+    "label": "Card 4",
+    "group": "Resultados rápidos",
+    "type": "textarea",
+    "maxLength": 170,
+    "default": "Um Funil de captação que atrai os clientes certos todos os meses."
+  },
+  {
+    "key": "problem.photoCaptionLeadStart",
+    "label": "Legenda — início",
+    "group": "Problema",
+    "type": "text",
+    "maxLength": 160,
+    "default": "Movimento não basta quando as"
+  },
+  {
+    "key": "problem.photoCaptionLeadStrong",
+    "label": "Legenda — negrito",
+    "group": "Problema",
+    "type": "text",
+    "maxLength": 100,
+    "default": "pessoas certas"
+  },
+  {
+    "key": "problem.photoCaptionLeadEnd",
+    "label": "Legenda — continuação",
+    "group": "Problema",
+    "type": "text",
+    "maxLength": 120,
+    "default": "não estão chegando,"
+  },
+  {
+    "key": "problem.photoCaptionAccent",
+    "label": "Legenda — negrito dourado",
+    "group": "Problema",
+    "type": "text",
+    "maxLength": 180,
+    "default": "ou sua comunicação está fraca."
+  },
+  {
+    "key": "problem.label",
+    "label": "Pré-headline",
+    "group": "Seu cenário",
+    "type": "text",
+    "maxLength": 90,
+    "default": "Onde a conta não fecha"
+  },
+  {
+    "key": "problem.titleStart",
+    "label": "Título — início",
+    "group": "Problema",
+    "type": "text",
+    "maxLength": 100,
+    "default": "Você pode ter um"
+  },
+  {
+    "key": "problem.titleStrong",
+    "label": "Título — negrito",
+    "group": "Problema",
+    "type": "text",
+    "maxLength": 100,
+    "default": "ótimo serviço,"
+  },
+  {
+    "key": "problem.titleMiddle",
+    "label": "Título — ligação",
+    "group": "Problema",
+    "type": "text",
+    "maxLength": 60,
+    "default": "mas"
+  },
+  {
+    "key": "problem.titleItalic",
+    "label": "Título — itálico",
+    "group": "Problema",
+    "type": "text",
+    "maxLength": 160,
+    "default": "atrai as pessoas erradas."
+  },
+  {
+    "key": "problem.lead",
+    "label": "Texto de abertura",
+    "group": "Seu cenário",
+    "type": "textarea",
+    "maxLength": 420,
+    "default": "Seu conteúdo chama atenção, mas muita gente que entra em contato não tem perfil ou orçamento para contratar. Enquanto isso, os clientes que realmente fazem sentido continuam chegando principalmente por indicação."
+  },
+  {
+    "key": "problem.item1",
+    "label": "Ponto 1",
+    "group": "Seu cenário",
+    "type": "textarea",
+    "maxLength": 220,
+    "default": "Pessoas gostam do seu trabalho, mas não têm orçamento para contratar."
+  },
+  {
+    "key": "problem.item2",
+    "label": "Ponto 2",
+    "group": "Seu cenário",
+    "type": "textarea",
+    "maxLength": 220,
+    "default": "Pedidos de orçamento chegam de quem só quer comparar preço."
+  },
+  {
+    "key": "problem.item3",
+    "label": "Ponto 3",
+    "group": "Seu cenário",
+    "type": "textarea",
+    "maxLength": 220,
+    "default": "Seu conteúdo gera interesse, mas poucas conversas avançam para uma proposta."
+  },
+  {
+    "key": "problem.item4",
+    "label": "Ponto 4",
+    "group": "Seu cenário",
+    "type": "textarea",
+    "maxLength": 220,
+    "default": "Bons clientes vêm por indicação, mas você não sabe quando virá o próximo."
+  },
+  {
+    "key": "problem.cost",
+    "label": "Texto “O custo disso”",
+    "group": "Seu cenário",
+    "type": "textarea",
+    "maxLength": 350,
+    "default": "O custo é direto: tempo gasto com quem não avança, propostas para o perfil errado e a insegurança de não saber de onde virão os próximos contratos."
+  },
+  {
+    "key": "diagnosis.kicker",
+    "label": "Pré-headline",
+    "group": "Diagnóstico",
+    "type": "text",
+    "maxLength": 220,
+    "default": "Antes de criar, ajustar ou investir mais"
+  },
+  {
+    "key": "diagnosis.titleLead",
+    "label": "Título — início",
+    "group": "Diagnóstico",
+    "type": "text",
+    "maxLength": 160,
+    "default": "Primeiro, entendemos"
+  },
+  {
+    "key": "diagnosis.titleItalic",
+    "label": "Título — negrito",
+    "group": "Diagnóstico",
+    "type": "text",
+    "maxLength": 180,
+    "default": "onde a venda se perde."
+  },
+  {
+    "key": "diagnosis.intro",
+    "label": "Texto de abertura",
+    "group": "Diagnóstico",
+    "type": "textarea",
+    "maxLength": 700,
+    "default": "Poucas vendas não significam automaticamente que falta conteúdo. Muitos pedidos de preço não provam que o serviço está caro. Propostas sem fechamento também podem ter causas diferentes. Antes de criar uma campanha, refazer uma página ou mexer na oferta, nós olhamos para o que já existe, o que está funcionando e onde estão os gargalos."
+  },
+  {
+    "key": "diagnosis.q1",
+    "label": "Pergunta 1",
+    "group": "Diagnóstico",
+    "type": "text",
+    "maxLength": 180,
+    "default": "Quem está chegando até você?"
+  },
+  {
+    "key": "diagnosis.q2",
+    "label": "Pergunta 2",
+    "group": "Diagnóstico",
+    "type": "text",
+    "maxLength": 180,
+    "default": "Essas pessoas têm perfil para o serviço que você vende?"
+  },
+  {
+    "key": "diagnosis.q3",
+    "label": "Pergunta 3",
+    "group": "Diagnóstico",
+    "type": "text",
+    "maxLength": 180,
+    "default": "Elas têm orçamento para contratar?"
+  },
+  {
+    "key": "diagnosis.q4",
+    "label": "Pergunta 4",
+    "group": "Diagnóstico",
+    "type": "text",
+    "maxLength": 180,
+    "default": "De onde vieram os clientes que fecharam?"
+  },
+  {
+    "key": "diagnosis.q5",
+    "label": "Pergunta 5",
+    "group": "Diagnóstico",
+    "type": "text",
+    "maxLength": 180,
+    "default": "Quantas conversas chegam até uma proposta?"
+  },
+  {
+    "key": "diagnosis.q6",
+    "label": "Pergunta 6",
+    "group": "Diagnóstico",
+    "type": "text",
+    "maxLength": 180,
+    "default": "Quantas propostas viram contrato?"
+  },
+  {
+    "key": "diagnosis.q7",
+    "label": "Pergunta 7",
+    "group": "Diagnóstico",
+    "type": "text",
+    "maxLength": 180,
+    "default": "Em que ponto as pessoas deixam de avançar?"
+  },
+  {
+    "key": "desire.label",
+    "label": "Pré-headline",
+    "group": "Desejo / resultado",
+    "type": "text",
+    "maxLength": 220,
+    "default": "O que precisa acontecer"
+  },
+  {
+    "key": "desire.titleStrong",
+    "label": "Título — negrito",
+    "group": "Desejo / resultado",
+    "type": "text",
+    "maxLength": 160,
+    "default": "Atrair as pessoas certas"
+  },
+  {
+    "key": "desire.titleRest",
+    "label": "Título — continuação",
+    "group": "Desejo / resultado",
+    "type": "text",
+    "maxLength": 220,
+    "default": "e trazer mais propostas,"
+  },
+  {
+    "key": "desire.titleAccent",
+    "label": "Título — negrito e itálico dourado",
+    "group": "Desejo / resultado",
+    "type": "text",
+    "maxLength": 220,
+    "default": "negociações e contratos."
+  },
+  {
+    "key": "desire.lead",
+    "label": "Texto de apoio",
+    "group": "Desejo / resultado",
+    "type": "textarea",
+    "maxLength": 700,
+    "default": "Para chegar a esse cenário, não basta gerar mais mensagens. É preciso melhorar quem chega, quais conversas avançam e como novas oportunidades entram no negócio."
+  },
+  {
+    "key": "desire.card1.label",
+    "label": "Card 1 — label",
+    "group": "Desejo / resultado",
+    "type": "text",
+    "maxLength": 220,
+    "default": "Filtrar quem chega"
+  },
+  {
+    "key": "desire.card1.text",
+    "label": "Card 1 — texto",
+    "group": "Desejo / resultado",
+    "type": "textarea",
+    "maxLength": 700,
+    "default": "Atrair pessoas com perfil e orçamento para o serviço que você vende."
+  },
+  {
+    "key": "desire.card2.label",
+    "label": "Card 2 — label",
+    "group": "Desejo / resultado",
+    "type": "text",
+    "maxLength": 220,
+    "default": "Falar com quem pode contratar"
+  },
+  {
+    "key": "desire.card2.text",
+    "label": "Card 2 — texto",
+    "group": "Desejo / resultado",
+    "type": "textarea",
+    "maxLength": 700,
+    "default": "Priorizar conversas com pessoas que realmente têm perfil para avançar."
+  },
+  {
+    "key": "desire.card3.label",
+    "label": "Card 3 — label",
+    "group": "Desejo / resultado",
+    "type": "text",
+    "maxLength": 220,
+    "default": "Levar as oportunidades certas à proposta"
+  },
+  {
+    "key": "desire.card3.text",
+    "label": "Card 3 — texto",
+    "group": "Desejo / resultado",
+    "type": "textarea",
+    "maxLength": 700,
+    "default": "Enviar propostas para oportunidades com chance real de fechar."
+  },
+  {
+    "key": "desire.card4.label",
+    "label": "Card 4 — label",
+    "group": "Desejo / resultado",
+    "type": "text",
+    "maxLength": 220,
+    "default": "Criar um funil de atração"
+  },
+  {
+    "key": "desire.card4.text",
+    "label": "Card 4 — texto",
+    "group": "Desejo / resultado",
+    "type": "textarea",
+    "maxLength": 700,
+    "default": "Atrair novos clientes todos os meses sem depender só de indicação."
+  },
+  {
+    "key": "method.kicker",
+    "label": "Pré-headline",
+    "group": "Método",
+    "type": "text",
+    "maxLength": 100,
+    "default": "Método La Signé"
+  },
+  {
+    "key": "method.titleStart",
+    "label": "Título — início",
+    "group": "Método",
+    "type": "text",
+    "maxLength": 60,
+    "default": "Para"
+  },
+  {
+    "key": "method.titleStrong1",
+    "label": "Título — negrito 1",
+    "group": "Método",
+    "type": "text",
+    "maxLength": 160,
+    "default": "atrair as pessoas"
+  },
+  {
+    "key": "method.titleNormal1",
+    "label": "Título — continuação normal",
+    "group": "Método",
+    "type": "text",
+    "maxLength": 80,
+    "default": "certas"
+  },
+  {
+    "key": "method.titleMiddle",
+    "label": "Título — ligação",
+    "group": "Método",
+    "type": "text",
+    "maxLength": 80,
+    "default": "e transformar"
+  },
+  {
+    "key": "method.titleStrong2",
+    "label": "Título — negrito 2",
+    "group": "Método",
+    "type": "text",
+    "maxLength": 180,
+    "default": "oportunidades em vendas,"
+  },
+  {
+    "key": "method.titleStrong",
+    "label": "Título — negrito vinho",
+    "group": "Método",
+    "type": "text",
+    "maxLength": 160,
+    "default": "estratégia e execução"
+  },
+  {
+    "key": "method.titleItalic",
+    "label": "Título — itálico vinho",
+    "group": "Método",
+    "type": "text",
+    "maxLength": 180,
+    "default": "precisam trabalhar juntas."
+  },
+  {
+    "key": "method.intro",
+    "label": "Texto de apoio",
+    "group": "Método",
+    "type": "textarea",
+    "maxLength": 650,
+    "default": "Nós conectamos o que o mercado entende sobre você, o que pode contratar, como os clientes chegam e o que acontece até a venda. A partir disso, direcionamos e construímos com você o que fizer sentido para o projeto: comunicação, conteúdo, páginas, campanhas, funis, materiais de venda e processo comercial."
+  },
+  {
+    "key": "method.card1.title",
+    "label": "Pilar 1 — título",
+    "group": "Método",
+    "type": "text",
+    "maxLength": 220,
+    "default": "Posicionamento"
+  },
+  {
+    "key": "method.card1.text",
+    "label": "Pilar 1 — descrição",
+    "group": "Método",
+    "type": "textarea",
+    "maxLength": 650,
+    "default": "Definimos como sua empresa, sua especialidade e sua oferta precisam ser percebidas para que o cliente certo entenda o seu valor. Isso orienta a mensagem, o conteúdo, as páginas e os materiais que apresentam o negócio."
+  },
+  {
+    "key": "method.card1.result",
+    "label": "Pilar 1 — frase final",
+    "group": "Método",
+    "type": "text",
+    "maxLength": 220,
+    "default": "Comunicação que sustenta o posicionamento"
+  },
+  {
+    "key": "method.card2.title",
+    "label": "Pilar 2 — título",
+    "group": "Método",
+    "type": "text",
+    "maxLength": 220,
+    "default": "Oferta"
+  },
+  {
+    "key": "method.card2.text",
+    "label": "Pilar 2 — descrição",
+    "group": "Método",
+    "type": "textarea",
+    "maxLength": 650,
+    "default": "Organizamos o que você vende, para quem faz sentido, como apresentar e quais argumentos ajudam o cliente a entender por que vale o investimento. Quando necessário, isso também orienta páginas, apresentações, propostas e materiais de venda."
+  },
+  {
+    "key": "method.card2.result",
+    "label": "Pilar 2 — frase final",
+    "group": "Método",
+    "type": "text",
+    "maxLength": 220,
+    "default": "Oferta clara e materiais para sustentar a venda"
+  },
+  {
+    "key": "method.card3.title",
+    "label": "Pilar 3 — título",
+    "group": "Método",
+    "type": "text",
+    "maxLength": 220,
+    "default": "Atração e aquisição"
+  },
+  {
+    "key": "method.card3.text",
+    "label": "Pilar 3 — descrição",
+    "group": "Método",
+    "type": "textarea",
+    "maxLength": 650,
+    "default": "Estruturamos como novas pessoas chegam até o negócio e quais ativos precisam existir para gerar demanda com consistência. Isso pode envolver conteúdo, campanhas, páginas, captação, funis e os canais de aquisição adequados ao seu cenário."
+  },
+  {
+    "key": "method.card3.result",
+    "label": "Pilar 3 — frase final",
+    "group": "Método",
+    "type": "text",
+    "maxLength": 220,
+    "default": "Conteúdo, campanhas e funil trabalhando aquisição"
+  },
+  {
+    "key": "method.card4.title",
+    "label": "Pilar 4 — título",
+    "group": "Método",
+    "type": "text",
+    "maxLength": 220,
+    "default": "Vendas e execução comercial"
+  },
+  {
+    "key": "method.card4.text",
+    "label": "Pilar 4 — descrição",
+    "group": "Método",
+    "type": "textarea",
+    "maxLength": 650,
+    "default": "Organizamos o que acontece depois que uma oportunidade chega: abordagem, reunião, proposta, follow-up, materiais comerciais e próximos passos até a decisão. Conforme o projeto, acompanhamos a execução e os ajustes necessários."
+  },
+  {
+    "key": "method.card4.result",
+    "label": "Pilar 4 — frase final",
+    "group": "Método",
+    "type": "text",
+    "maxLength": 220,
+    "default": "Reunião, proposta e follow-up com próximo passo"
+  },
+  {
+    "key": "offers.eyebrow",
+    "label": "Pré-headline",
+    "group": "Ofertas",
+    "type": "text",
+    "maxLength": 100,
+    "default": "Como trabalhar com a La Signé"
+  },
+  {
+    "key": "offers.titleLead",
+    "label": "Título — início",
+    "group": "Ofertas",
+    "type": "text",
+    "maxLength": 160,
+    "default": "Três formatos de atuação para o"
+  },
+  {
+    "key": "offers.titleAccent",
+    "label": "Título — negrito e itálico dourado",
+    "group": "Ofertas",
+    "type": "text",
+    "maxLength": 120,
+    "default": "momento do seu negócio:"
+  },
+  {
+    "key": "offers.intro",
+    "label": "Texto de apoio",
+    "group": "Ofertas",
+    "type": "textarea",
+    "maxLength": 650,
+    "default": "Você pode começar ganhando direção sobre o que já existe, estruturar uma rota de aquisição e vendas ou ter acompanhamento mais próximo para criar, ajustar e implementar o que fizer sentido para o projeto."
+  },
+  {
+    "key": "offers.offer1.label",
+    "label": "Oferta 1 — label",
+    "group": "Ofertas",
+    "type": "text",
+    "maxLength": 100,
+    "default": "01 · Direção"
+  },
+  {
+    "key": "offers.offer1.title",
+    "label": "Oferta 1 — nome",
+    "group": "Ofertas",
+    "type": "text",
+    "maxLength": 100,
+    "default": "Mapa da Mina"
+  },
+  {
+    "key": "offers.offer1.text",
+    "label": "Oferta 1 — descrição",
+    "group": "Ofertas",
+    "type": "textarea",
+    "maxLength": 650,
+    "default": "Para quem quer entender o que já funciona, onde existem gargalos e o que vale priorizar antes de investir tempo e dinheiro em novas ações."
+  },
+  {
+    "key": "offers.offer1.resultLabel",
+    "label": "Oferta 1 — label do resultado",
+    "group": "Ofertas",
+    "type": "text",
+    "maxLength": 100,
+    "default": "Você sai sabendo"
+  },
+  {
+    "key": "offers.offer1.result",
+    "label": "Oferta 1 — resultado",
+    "group": "Ofertas",
+    "type": "textarea",
+    "maxLength": 650,
+    "default": "Prioridades claras sobre o que manter, o que ajustar, o que criar e o que não precisa mexer agora."
+  },
+  {
+    "key": "offers.offer1.cta",
+    "label": "Oferta 1 — CTA",
+    "group": "Ofertas",
+    "type": "text",
+    "maxLength": 100,
+    "default": "Quero melhorar minhas vendas →"
+  },
+  {
+    "key": "offers.offer2.label",
+    "label": "Oferta 2 — label",
+    "group": "Ofertas",
+    "type": "text",
+    "maxLength": 100,
+    "default": "02 · Estruturação"
+  },
+  {
+    "key": "offers.offer2.title",
+    "label": "Oferta 2 — nome",
+    "group": "Ofertas",
+    "type": "text",
+    "maxLength": 100,
+    "default": "Rota da Escala"
+  },
+  {
+    "key": "offers.offer2.text",
+    "label": "Oferta 2 — descrição",
+    "group": "Ofertas",
+    "type": "textarea",
+    "maxLength": 650,
+    "default": "Para quem quer estruturar posicionamento, oferta, aquisição e vendas para reduzir a dependência de indicação e criar uma fonte mais consistente de novos clientes."
+  },
+  {
+    "key": "offers.offer2.resultLabel",
+    "label": "Oferta 2 — label do resultado",
+    "group": "Ofertas",
+    "type": "text",
+    "maxLength": 100,
+    "default": "O que buscamos construir"
+  },
+  {
+    "key": "offers.offer2.result",
+    "label": "Oferta 2 — resultado",
+    "group": "Ofertas",
+    "type": "textarea",
+    "maxLength": 650,
+    "default": "Uma estrutura sob medida para atrair novos clientes todos os meses, com mensagens, canais, páginas, funil e etapas comerciais definidos conforme o negócio."
+  },
+  {
+    "key": "offers.offer2.cta",
+    "label": "Oferta 2 — CTA",
+    "group": "Ofertas",
+    "type": "text",
+    "maxLength": 100,
+    "default": "Quero atrair clientes todos os meses →"
+  },
+  {
+    "key": "offers.offer3.label",
+    "label": "Oferta 3 — label",
+    "group": "Ofertas",
+    "type": "text",
+    "maxLength": 100,
+    "default": "03 · Execução acompanhada"
+  },
+  {
+    "key": "offers.offer3.title",
+    "label": "Oferta 3 — nome",
+    "group": "Ofertas",
+    "type": "text",
+    "maxLength": 100,
+    "default": "Implementação La Signé Pro"
+  },
+  {
+    "key": "offers.offer3.text",
+    "label": "Oferta 3 — descrição",
+    "group": "Ofertas",
+    "type": "textarea",
+    "maxLength": 650,
+    "default": "Para quem quer construir com a La Signé o que a estratégia pede e ter acompanhamento próximo na implementação das etapas contratadas."
+  },
+  {
+    "key": "offers.offer3.resultLabel",
+    "label": "Oferta 3 — label do resultado",
+    "group": "Ofertas",
+    "type": "text",
+    "maxLength": 220,
+    "default": "O que podemos construir com você"
+  },
+  {
+    "key": "offers.offer3.result",
+    "label": "Oferta 3 — resultado",
+    "group": "Ofertas",
+    "type": "textarea",
+    "maxLength": 650,
+    "default": "Conforme o escopo, criamos ou ajustamos comunicação, conteúdo, páginas, campanhas, funis, materiais de venda e processo comercial, acompanhando o que está acontecendo para orientar os próximos ajustes."
+  },
+  {
+    "key": "offers.offer3.cta",
+    "label": "Oferta 3 — CTA",
+    "group": "Ofertas",
+    "type": "text",
+    "maxLength": 100,
+    "default": "Quero mais clientes e propostas em negociação →"
+  },
+  {
+    "key": "testimonials.title",
+    "label": "Título da seção",
+    "group": "Depoimentos",
+    "type": "text",
+    "maxLength": 180,
+    "default": "Resultados de clientes"
+  },
+  {
+    "key": "testimonials.card1.label",
+    "label": "Depoimento 1: categoria",
+    "group": "Depoimentos",
+    "type": "text",
+    "maxLength": 90,
+    "default": "Ridiane"
+  },
+  {
+    "key": "testimonials.card1.title",
+    "label": "Depoimento 1: resultado",
+    "group": "Depoimentos",
+    "type": "text",
+    "maxLength": 140,
+    "default": "Mais clientes high ticket fechados"
+  },
+  {
+    "key": "testimonials.card1.context",
+    "label": "Depoimento 1: contexto",
+    "group": "Depoimentos",
+    "type": "textarea",
+    "maxLength": 320,
+    "default": "Ao implementar o método de vendas trabalhado, Ridiane passou a relatar novos fechamentos de clientes high ticket."
+  },
+  {
+    "key": "testimonials.card1.quote",
+    "label": "Depoimento 1: fala",
+    "group": "Depoimentos",
+    "type": "textarea",
+    "maxLength": 380,
+    "default": "“Consegui fechar mais clientes high ticket implementando o método de vendas.”"
+  },
+  {
+    "key": "testimonials.card1.meta",
+    "label": "Depoimento 1: identificação",
+    "group": "Depoimentos",
+    "type": "text",
+    "maxLength": 180,
+    "default": "Nutricionista"
+  },
+  {
+    "key": "testimonials.card2.label",
+    "label": "Depoimento 2: categoria",
+    "group": "Depoimentos",
+    "type": "text",
+    "maxLength": 90,
+    "default": "Deividas"
+  },
+  {
+    "key": "testimonials.card2.title",
+    "label": "Depoimento 2: resultado",
+    "group": "Depoimentos",
+    "type": "text",
+    "maxLength": 140,
+    "default": "Novos clientes com um funil novo"
+  },
+  {
+    "key": "testimonials.card2.context",
+    "label": "Depoimento 2: contexto",
+    "group": "Depoimentos",
+    "type": "textarea",
+    "maxLength": 320,
+    "default": "Depois de duas mentorias e da implementação do novo funil, Deividas voltou com novos clientes fechados."
+  },
+  {
+    "key": "testimonials.card2.quote",
+    "label": "Depoimento 2: fala",
+    "group": "Depoimentos",
+    "type": "textarea",
+    "maxLength": 380,
+    "default": "“Fechei dois clientes depois de duas consultorias e um funil novo de aquisição.”"
+  },
+  {
+    "key": "testimonials.card2.meta",
+    "label": "Depoimento 2: identificação",
+    "group": "Depoimentos",
+    "type": "text",
+    "maxLength": 180,
+    "default": "Treinador de fitness"
+  },
+  {
+    "key": "testimonials.card3.label",
+    "label": "Depoimento 3: categoria",
+    "group": "Depoimentos",
+    "type": "text",
+    "maxLength": 90,
+    "default": "Naheemah"
+  },
+  {
+    "key": "testimonials.card3.title",
+    "label": "Depoimento 3: resultado",
+    "group": "Depoimentos",
+    "type": "text",
+    "maxLength": 140,
+    "default": "Mais vendas e crescimento"
+  },
+  {
+    "key": "testimonials.card3.context",
+    "label": "Depoimento 3: contexto",
+    "group": "Depoimentos",
+    "type": "textarea",
+    "maxLength": 320,
+    "default": "Seguindo o método e aplicando os ajustes no comercial, passou a relatar novas vendas e crescimento do faturamento."
+  },
+  {
+    "key": "testimonials.card3.quote",
+    "label": "Depoimento 3: fala",
+    "group": "Depoimentos",
+    "type": "textarea",
+    "maxLength": 380,
+    "default": "“Estou conseguindo crescer meu faturamento depois da nossa mentoria.”"
+  },
+  {
+    "key": "testimonials.card3.meta",
+    "label": "Depoimento 3: identificação",
+    "group": "Depoimentos",
+    "type": "text",
+    "maxLength": 180,
+    "default": "Mentora de mentalidade"
+  },
+  {
+    "key": "about.quoteAccent",
+    "label": "Frase visual — início dourado em negrito",
+    "group": "Sobre a La Signé",
+    "type": "text",
+    "maxLength": 120,
+    "default": "Estratégia que vira:"
+  },
+  {
+    "key": "about.quoteRest",
+    "label": "Frase visual — restante",
+    "group": "Sobre a La Signé",
+    "type": "textarea",
+    "maxLength": 340,
+    "default": "comunicação, conteúdo, páginas, campanhas, funil e processo comercial."
+  },
+  {
+    "key": "about.kicker",
+    "label": "Pré-headline",
+    "group": "Sobre a La Signé",
+    "type": "text",
+    "maxLength": 100,
+    "default": "Equipe + método La Signé"
+  },
+  {
+    "key": "about.titleLead",
+    "label": "Título — início",
+    "group": "Sobre a La Signé",
+    "type": "textarea",
+    "maxLength": 450,
+    "default": "Você conta com uma equipe para construir o que"
+  },
+  {
+    "key": "about.titleEmphasis",
+    "label": "Título — destaque vinho em negrito",
+    "group": "Sobre a La Signé",
+    "type": "text",
+    "maxLength": 160,
+    "default": "ajuda seu negócio"
+  },
+  {
+    "key": "about.titleItalic",
+    "label": "Título — negrito + itálico vinho",
+    "group": "Sobre a La Signé",
+    "type": "textarea",
+    "maxLength": 220,
+    "default": "a atrair clientes e vender melhor."
+  },
+  {
+    "key": "about.p1",
+    "label": "Parágrafo 1",
+    "group": "Sobre a La Signé",
+    "type": "textarea",
+    "maxLength": 650,
+    "default": "Em alguns casos, criamos do zero. Em outros, ajustamos o que já existe. E, quando algo já funciona bem, trabalhamos para fazê-lo funcionar ainda melhor."
+  },
+  {
+    "key": "about.p2",
+    "label": "Parágrafo 2",
+    "group": "Sobre a La Signé",
+    "type": "textarea",
+    "maxLength": 650,
+    "default": "A La Signé atua da estratégia à aplicação. Trabalhamos posicionamento, oferta, comunicação, conteúdo, aquisição, funis e vendas de forma conectada."
+  },
+  {
+    "key": "about.p3",
+    "label": "Parágrafo 3",
+    "group": "Sobre a La Signé",
+    "type": "textarea",
+    "maxLength": 650,
+    "default": "Dependendo do projeto, podemos direcionar, criar do zero, ajustar o que já existe, desenvolver páginas, conteúdos, campanhas e materiais comerciais ou acompanhar a execução junto com você e sua equipe."
+  },
+  {
+    "key": "about.p4",
+    "label": "Parágrafo 4",
+    "group": "Sobre a La Signé",
+    "type": "textarea",
+    "maxLength": 650,
+    "default": "Não existe um pacote de execução igual para todos. O que construímos depende do que o negócio já tem, do que precisa agora e do escopo contratado."
+  },
+  {
+    "key": "about.founder",
+    "label": "Fundadora",
+    "group": "Sobre a La Signé",
+    "type": "text",
+    "maxLength": 100,
+    "default": "Fundada por Ana Lira"
+  },
+  {
+    "key": "about.credentials",
+    "label": "Credenciais",
+    "group": "Sobre a La Signé",
+    "type": "textarea",
+    "maxLength": 400,
+    "default": "7 anos de experiência em copywriting premium · MBA em Comunicação Digital · formação em Administração nos Estados Unidos · experiência profissional internacional · passagem pela Bloomberg."
+  },
+  {
+    "key": "contact.eyebrow",
+    "label": "Pré-headline",
+    "group": "Contato / CTA final",
+    "type": "text",
+    "maxLength": 220,
+    "default": "O resultado que buscamos construir com você"
+  },
+  {
+    "key": "contact.headlineLead",
+    "label": "Headline — início",
+    "group": "Contato / CTA final",
+    "type": "text",
+    "maxLength": 220,
+    "default": "É sobre ter tranquilidade de saber de onde vêm os"
+  },
+  {
+    "key": "contact.headlineStrong",
+    "label": "Headline final — negrito",
+    "group": "Contato / CTA final",
+    "type": "text",
+    "maxLength": 120,
+    "default": "próximos clientes"
+  },
+  {
+    "key": "contact.headlineItalic",
+    "label": "Headline final — itálico",
+    "group": "Contato / CTA final",
+    "type": "text",
+    "maxLength": 120,
+    "default": "mês após mês."
+  },
+  {
+    "key": "contact.intro",
+    "label": "Texto de apoio",
+    "group": "Contato / CTA final",
+    "type": "textarea",
+    "maxLength": 700,
+    "default": "Conte rapidamente o que está acontecendo hoje. Nossa equipe recebe suas respostas no WhatsApp e começa a conversa já entendendo o seu momento e o resultado que você quer construir."
+  },
+  {
+    "key": "contact.whatsappCta",
+    "label": "Link de WhatsApp",
+    "group": "Contato / CTA final",
+    "type": "text",
+    "maxLength": 120,
+    "default": "Quero falar com a La Signé no WhatsApp →"
+  },
+  {
+    "key": "contact.submitCta",
+    "label": "Botão do formulário",
+    "group": "Contato / CTA final",
+    "type": "text",
+    "maxLength": 100,
+    "default": "Quero atrair os clientes certos →"
+  },
+  {
+    "key": "contact.formNote",
+    "label": "Nota do formulário",
+    "group": "Contato / CTA final",
+    "type": "textarea",
+    "maxLength": 240,
+    "default": "Você será direcionada ao WhatsApp da La Signé. Nenhum agendamento é feito automaticamente."
+  },
+  {
+    "key": "footer.copy",
+    "label": "Rodapé",
+    "group": "Rodapé",
+    "type": "text",
+    "maxLength": 220,
+    "default": "© 2026 La Signé · Posicionamento · Conteúdo · Aquisição · Vendas"
+  },
+  {
+    "key": "settings.whatsappNumber",
+    "label": "WhatsApp (somente números, com país e DDD)",
+    "group": "Configurações",
+    "type": "text",
+    "maxLength": 20,
+    "default": "5519982933000"
+  },
+  {
+    "key": "settings.directMessage",
+    "label": "Mensagem inicial do link direto do WhatsApp",
+    "group": "Configurações",
+    "type": "textarea",
+    "maxLength": 650,
+    "default": "Olá, equipe La Signé. Quero conversar sobre como estruturar minha atração de clientes, comunicação e vendas."
+  }
+]
